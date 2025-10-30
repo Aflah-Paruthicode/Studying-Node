@@ -1,9 +1,8 @@
-require("./imp");
+const { divide, multiply, sum } = require("./calculate");
 
-const calculateSum = require('./sum');
+const num1 = 4;
+const num2 = 8;
 
-let current = "current module";
-console.log(current);
-
-calculateSum(1,9)
-
+divide(num1, num2);
+multiply(num1, num2);
+sum(num1, num2);
