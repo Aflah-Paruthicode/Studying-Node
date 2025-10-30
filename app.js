@@ -1,8 +1,4 @@
-let name = 'Muhammed Aflah'
+require("./imp");
 
-let BadgeNow = 50
-
-console.log(name+'and have leetcode '+BadgeNow)
-
-
-console.log(global)
+let current = "current module";
+console.log(current);
