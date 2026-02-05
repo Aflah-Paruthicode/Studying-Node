@@ -1,6 +1,5 @@
- # The Node.js Master Lab  
-
- *This repository is a deep dive into the internals of Node.js. it documents my journey of understanding,*
+ # *The Node.js Master Lab* 
+*This repository is a deep dive into the internals of Node.js. it documents my journey of understanding,*
 
 ---
 
@@ -40,7 +39,7 @@
 
 ---
 
-### The Module System & Wrapper
+### The Module System And Wrapper
  *when we require(), node doesn't just run our code. it wraps it in a protection shield called an iife (immediately invoked function expression).*
   - **Why?:** *this is why our variables are private and don't leak to other files.*
   - **Caching:** *node loads a module once. if we require it again, it gives us the version it already saved in memory.*
@@ -55,5 +54,6 @@
 
  --- 
  
-  ***Create with Love, by Aflah 🧑‍🎓***
+  ***Created with ❤️, by Aflah 🧑‍🎓*** <br />
+  *If you find this repo useful! then consider giving it a star 🫰*
  
